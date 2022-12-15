@@ -1,0 +1,18 @@
+<div class="container">
+  <form class="jumbotron">
+    <h3 class="display-4">Aggiungi persona</h3>
+    <div class="form-gruop">
+      <label for="nome">Nome:</label>
+      <input name="nome" #newnome> 
+    </div>
+    <div class="form-gruop mt-3">
+      <label for="cognome">Cognome:</label>
+      <input name="cognome" #newcognome> 
+    </div>
+    <br>
+    <button class="btn btn-primary" (click)="addutente(newnome, newcognome)" style="color: orange;"> 
+    Registra
+    </button>
+    
+  </form>
+</div>
